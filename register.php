@@ -39,20 +39,6 @@ if (isset($_POST['token']) && $_POST['token'] === $_SESSION['token']) {
   }
 }
 
-
-/*
- if (strlen($_POST['password']) >= 5)
- {
-  $password_hash=password_hash($_POST['password'], PASSWORD_DEFAULT);
- }
-else {
-  $errors['password']= 'Votre mot de passe doit compter 5 caractères minimum ';
-}
-
-if 
-
-
-*/
 ?>
 <!doctype html>
 <html lang="fr">
@@ -64,30 +50,10 @@ if
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
+    <link href="css/register.css" rel="stylesheet">
+
     <title>Hello, world!</title>
 
-
-    <style>
-
-#form{
-
-    width: 500px;
-
-    height: auto;
-
-    position: absolute;
-
-    left: 50%;
-
-    top: 50%;
-
-    transform: translate(-50%, -50%);
-
-    -webkit-transform: translate(-50%, -50%);
-
-}
-
-</style>
   </head>
   <body>
 
